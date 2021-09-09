@@ -18,7 +18,8 @@ document.getElementById("submitBtn").addEventListener("click", (e) => {
 
   if (!inputValue || !passValue) {
     return alert("Email and password field cannot be empty");
-  }
+    }
+    
     if (emailregEX.test(inputValue) && passRegEx.test(passValue)) {
     //   email 
     document.getElementById("emailValidrightText").classList.remove("d-none");
