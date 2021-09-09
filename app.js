@@ -20,7 +20,7 @@ document.getElementById("submitBtn").addEventListener("click", (e) => {
     return alert("Email and password field cannot be empty");
     }
     
-    if (emailregEX.test(inputValue) && passRegEx.test(passValue)) {
+ /*    if (emailregEX.test(inputValue) && passRegEx.test(passValue)) {
     //   email 
     document.getElementById("emailValidrightText").classList.remove("d-none");
         document.getElementById("emailValidWrongText").classList.add("d-none");
@@ -37,4 +37,4 @@ document.getElementById("submitBtn").addEventListener("click", (e) => {
     document.getElementById("passValidWrongText").classList.remove("d-none");
     document.getElementById("pass").classList.remove("d-none");
   }
-});
+}); */
